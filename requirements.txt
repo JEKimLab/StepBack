@@ -1,0 +1,6 @@
+# Versions used for the paper's experiments (Python 3.10, CUDA 12.8).
+vllm==0.9.2
+torch==2.7.0
+transformers==4.53.2
+# Only needed for --rollback-signal gpt (Responses API: openai>=1.66).
+openai>=1.66
